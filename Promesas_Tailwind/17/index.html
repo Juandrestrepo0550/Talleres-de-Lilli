@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Simular Base de Datos</title>
+    <link rel="icon" type="image/png" href="../logo_cloe.png" />
+    <script src="../tailwindcss.js"></script>
+</head>
+
+<body class="min-h-screen flex items-center justify-center" style="background-color: #fde5c9;">
+    <div class="rounded-lg shadow-lg p-8 w-full max-w-md flex flex-col items-center space-y-4"
+        style="background-color: #eabd96;">
+
+        <img src="../logo_cloe.png" alt="Logo" class="w-24 h-24 mb-4 rounded-full shadow-lg"
+            style="box-shadow: 0 4px 6px rgba(221, 162, 120, 0.5);" />
+
+        <h1 class="text-2xl font-bold text-center">Simular Base de Datos</h1>
+
+        <input type="text" id="userId" placeholder="ID de usuario"
+            class="w-full rounded px-4 py-2 placeholder-gray-500 focus:outline-none focus:ring-2"
+            style="background-color: #f7dfc3; border: 2px solid #dda278; color: #dda278;" />
+
+        <button id="buscarBtn" class="w-full font-semibold rounded px-4 py-2 transition-colors"
+            style="background-color: #dda278; color: #fde5c9;" onmouseover="this.style.backgroundColor='#eabd96'"
+            onmouseout="this.style.backgroundColor='#dda278'">
+            Buscar Usuario
+        </button>
+
+        <div id="resultado" class="hidden mt-4 font-semibold p-3 rounded border-l-4 w-full text-center"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+Hola Instructora Lilliana, desde aqui le presentare varios TIPS para poder usar algunos de los puntos
+
+1. Lee Archivos de la computadora (solo TXT)
+2. Solo debe rellenar el campo y darle click al boton
+3. Trae un Json por defecto o puede usted misma seleccionar uno de su PC que cargue con la informacion que trae la tabla.
+4. Usuario = admin, Contraseña = 123 si quiere que aparezca correcto.
+5. Al colocar una URL de una imagen esta aparece.
+6. Es un formulario con validacion para el nombre, el correo y que no se envie vacio el formulario.
+7. Se debe activar la opcion de ver la ubicacion.
+8. Usuario = admin, Contraseña = 123 nuevamente
+9. Lee los txt a y b
+10. Lee los txt a, b, c en orden
+11. La tarjeta debe tener 8 numeros, los productos estan en el Json
+12. Token = tokenValido123
+13. Al darle cargar imagen carga las 3 imagenes de la carpeta
+14. Elige un Txt con contenido y puedes cancelar la promesa
+15. Solo se le debe dar y puede ser que ocurra o no el error y se deba reintentar
+16. Cualquier pc seria capaz de hacer la solicitud rapido, recomiendo bajar la solicitud a 10ms para que vea el error
+17. Existen el id 1,2 y 3.
+18. Carga el JSON datos.json
+19. Solo debe clickear boton
+20. Solo debe clickear boton
+21. Es un formulario con validacion para el nombre, el correo y que no se envie vacio el formulario.
+22. Ingrese un valor en el campo
+23. Ingrese un valor en el campo
+24. Devuelve los datos del "sensor"
+25. Cambia el apartado del archivo que se debe leer en el JS linea 25 para ver que el catch si sirve

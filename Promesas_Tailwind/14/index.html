@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Cancelar Promesa con Archivo</title>
+    <link rel="icon" type="image/png" href="../logo_cloe.png" />
+    <script src="../tailwindcss.js"></script>
+</head>
+
+<body class="min-h-screen flex items-center justify-center p-8" style="background-color: #fde5c9;">
+
+    <div class="rounded-lg shadow-lg p-8 w-full max-w-md flex flex-col items-center space-y-4"
+        style="background-color: #eabd96;">
+
+        <!-- Logo -->
+        <img src="../logo_cloe.png" alt="Logo" class="w-24 h-24 mb-4 rounded-full shadow-lg"
+            style="box-shadow: 0 4px 6px rgba(221, 162, 120, 0.5);" />
+
+        <h1 class="text-2xl font-bold text-center">Cancelar Promesa con Archivo</h1>
+
+        <!-- Selector de archivo -->
+        <input type="file" id="archivoInput" accept=".txt"
+            class="w-full font-semibold rounded px-4 py-2 text-sm text-center transition-colors bg-white text-black border border-gray-300 cursor-pointer" />
+
+        <!-- Botones -->
+        <button id="iniciarBtn" class="w-full font-semibold rounded px-4 py-2 transition-colors"
+            style="background-color: #dda278; color: #fde5c9;" onmouseover="this.style.backgroundColor='#eabd96'"
+            onmouseout="this.style.backgroundColor='#dda278'">
+            Iniciar Lectura
+        </button>
+
+        <button id="cancelarBtn" class="w-full font-semibold rounded px-4 py-2 transition-colors"
+            style="background-color: #b86d45; color: #fde5c9;" onmouseover="this.style.backgroundColor='#cc8a65'"
+            onmouseout="this.style.backgroundColor='#b86d45'">
+            Cancelar
+        </button>
+
+        <!-- Resultado -->
+        <div id="resultado" class="hidden mt-4 font-semibold p-3 rounded border-l-4 w-full text-center"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
